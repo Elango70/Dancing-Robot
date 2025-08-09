@@ -1,0 +1,336 @@
+body {
+  background-image: radial-gradient(circle,#94BBE9,#EEAECA);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#body{
+    height: 280px;
+    width: 200px;
+    background-image: linear-gradient(to top,rgb(71, 71, 71),rgb(119, 119, 119),rgb(150, 150, 150),rgb(180, 180, 180),rgb(150, 150, 150),rgb(180, 180, 180));
+    border-radius: 50% 50% 10% 10%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#eyes{
+    height: 10px;
+    width: 195px;
+    margin-top: 65px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#eye1{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 35px;
+    width: 25px; 
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#eye2{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 35px;
+    width: 25px; 
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#nose{
+    height: 10px;
+    width: 15px;
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#mouth{
+    height: 8px;
+    width: 40px;
+    margin-top: 12px;
+    margin-left: 80px;
+    text-align: center;
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    border-radius: 0% 0% 50% 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#neck{
+    height: 2.5px;
+    width: 200px;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+#hand{
+    height: 2.5px;
+    width: 200px;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+#left{
+    background-image: linear-gradient(to right,#ff0000,#5900ff);
+    height: 70px;
+    width: 25px; 
+    margin-right: 100px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#right{
+    background-image: linear-gradient(to right,#ff0000,#5900ff);
+    height: 70px;
+    width: 25px; 
+    margin-left: 5px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#palm1{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 20px; 
+    margin-top: 75px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#palm2{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 20px; 
+    margin-top: 75px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#hip{
+    height: 2.5px;
+    width: 200px;
+    margin-top: 2px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#leg{
+    height: 2.5px;
+    width: 200px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#leftl{
+    background-image: linear-gradient(to right,#ff0000,#5900ff);
+    height: 90px;
+    width: 20px; 
+    margin-right: 2px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#rightl{
+    background-image: linear-gradient(to right,#ff0000,#5900ff);
+    height: 90px;
+    width: 20px; 
+    margin-left: 10px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#foot1{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 20px; 
+    margin-top: 95px;
+    margin-left: -15px;
+    border-radius: 50% 0% 50% 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#foot2{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 20px; 
+    margin-top: 95px;
+    margin-left: 12px;
+    border-radius: 0% 50% 50% 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#whole{
+    height: 400px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+#whole:hover #body {
+  animation-name: bodyf;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;}
+
+#whole:hover #left {
+  animation-name: handl;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+#whole:hover #right {
+  animation-name: handr;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;}
+
+#whole:hover #leftl {
+  animation-name: legl;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;}
+
+#whole:hover #rightl {
+  animation-name: legr;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;}
+
+@keyframes bodyf{
+    25%{transform: translate(50px,0px);}
+    100%{transform: translate(-50px,0px);}
+}
+
+@keyframes legl{
+    25%{transform: rotate(45deg);}
+    100%{transform: rotate(-45deg);}
+}
+
+@keyframes legr{
+    25%{transform: rotate(45deg);}
+    100%{transform: rotate(-45deg);}
+}
+
+@keyframes handl{
+    25%{transform: rotate(45deg);}
+    100%{transform: rotate(-45deg);}
+}
+
+@keyframes handr{
+    25%{transform: rotate(45deg);}
+    100%{transform: rotate(-45deg);}
+}
+
+#whole:hover #eye1,
+#whole:hover #eye2,
+#whole:hover #nose,
+#whole:hover #mouth,
+#whole:hover #palm1,
+#whole:hover #palm2,
+#whole:hover #foot1,
+#whole:hover #foot2,
+#whole:hover #a1ball,
+#whole:hover #a2ball{
+  animation-name: colorchange;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorchange {
+  0% { background-image: linear-gradient(to right, #00d9ff, #0004ff); }
+  50% { background-image: linear-gradient(to right, #00ff00, #ff00ff); }
+  100% { background-image: linear-gradient(to right, #ffff00, #00d9ff); }
+}
+
+#antenna1{
+    background-image: linear-gradient(to right,#5900ff,#1eff00);
+    height: 55px;
+    width: 7px;
+    margin-top :-175px;
+    margin-left : 10px;
+    border-radius: 30%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    transform: rotate(-20deg);
+
+}
+
+#antenna2{
+    background-image: linear-gradient(to right,#5900ff,#1eff00);
+    height: 55px;
+    width: 7px;
+    margin-top :-60px;
+    margin-left : 178px;
+    border-radius: 30%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    transform: rotate(20deg);
+}
+
+#a1ball{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 15px;
+    margin-top :-24px;
+    margin-left : -6px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#a2ball{
+    background-image: linear-gradient(to right,#00d9ff,#0004ff);
+    height: 15px;
+    width: 15px;
+    margin-top :-24px;
+    margin-left : -6px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#top p{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(#2bff00, #0099ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; /* Sets the outline thickness */
+    -webkit-text-stroke-color: black;
+}
